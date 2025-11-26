@@ -121,7 +121,7 @@ def get_url(region):
     elif region in {"br", "us", "sac", "na"}:
         return "https://client.us.freefiremobile.com"
     else:
-        return "https://clientbp.ggblueshark.com"
+        return "https://clientbp.ggwhitehawk.com"
 
 def build_headers(token):
     return {
